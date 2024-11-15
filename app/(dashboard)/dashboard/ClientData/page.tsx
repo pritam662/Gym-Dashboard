@@ -140,7 +140,7 @@ export default function VehicleCarBotDashboard() {
                       users.map((user) => (
                         <div
                           key={user._id }
-                          className="grid grid-cols-3 gap-4 border-b border-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 light"
+                          className="grid grid-cols-3 gap-4 border-b border-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 light "
                         >
                           <div className="p-4 text-center text-gray-800 dark:text-white">
                             {user.clientName || 'N/A'}
